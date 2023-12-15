@@ -41,10 +41,10 @@ public class Main {
 		manager.printAllParkingLotsInfo();
 
 		System.out.println(
-				"The daily earning currently being made by Park Pay are: " + manager.getParkPay().calculateEarnings()
+				"The daily earnings currently being made by Park Pay are: " + manager.getParkPay().calculateEarnings()
 						+ "$\n");
 
-		System.out.println("The daily earning currently being made by Luxury Park are: "
+		System.out.println("The daily earnings currently being made by Luxury Park are: "
 				+ manager.getLuxuryPark().calculateEarnings() + "$\n");
 
 		manager.getParkPay().printOwnersOfParkedCars();
